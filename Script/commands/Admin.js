@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.(__dirname + "//owner.jpg"));
 
- return request("https://i.imgur.com/idyXtoO.jpeg")
+ return request("https://i.imgur.com/RctPkbI.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
@@ -65,7 +65,7 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.(__dirname + "//owner.jpg"));
 
- return request("https://i.imgur.com/idyXtoO.jpeg")
+ return request("https://i.imgur.com/RctPkbI.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
@@ -82,17 +82,17 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.unlinkSync(__dicache/owner.jpg"));
 
- return request("https://i.imgur.com/SGZ87c2.jpeg")
+ return request("https://i.imgur.com/RctPkbI.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 }; + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/SGZ87c2.jpeg")
+ return request("https://i.imgur.com/RctPkbI.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/SGZ87c2.jpeg")
+ return request("https://i.imgur.com/RctPkbI.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
