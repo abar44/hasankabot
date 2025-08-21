@@ -22,10 +22,10 @@ module.exports.run = async function({ api, event }) {
 ┌───────────────⭓
 │ 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
 ├───────────────
-│ 👤 𝐍𝐚𝐦𝐞 :  HD卝𝐇𝐀𝐒𝐀𝐍ツ࿐
+│ 👤 𝐍𝐚𝐦𝐞 : HD HASAN 
 │ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : 𝐌𝐚𝐥𝐞
 │ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : 𝐒𝐢𝐧𝐠𝐥𝐞
-│ 🎂 𝐀𝐠𝐞 : 20+
+│ 🎂 𝐀𝐠𝐞 : 𝟏9+
 │ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : 𝐈𝐬𝐥𝐚𝐦
 │ 🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : J𝐒𝐂 (𝟐𝟎𝟐4)
 │ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : DHAKA BANGLADESH 
@@ -34,7 +34,8 @@ module.exports.run = async function({ api, event }) {
 ┌───────────────⭓
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
-│ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:https://www.facebook.com/share/16wjaviFkv/
+│ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
+│ https://www.facebook.com/share/1EwF5xTzM8/
 │ 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
 │ https://wa.me/0162030345
 └───────────────⭓
@@ -46,53 +47,9 @@ module.exports.run = async function({ api, event }) {
 └───────────────⭓
  `,
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
- }, event.threadID, () => fs.(__dirname + "//owner.jpg"));
+ }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/RctPkbI.jpeg")
- .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
- .on('close', () => callback());
-};
-│ 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│ https://wa.me/01882333052
-└───────────────⭓
-
-┌───────────────⭓
-│ 🕒 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗧𝗶𝗺𝗲
-├───────────────
-│ ${time}
-└───────────────⭓
- `,
- attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
- }, event.threadID, () => fs.(__dirname + "//owner.jpg"));
-
- return request("https://i.imgur.com/RctPkbI.jpeg")
- .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
- .on('close', () => callback());
-};
-│ 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│ https://wa.me/01882333052
-└───────────────⭓
-
-┌───────────────⭓
-│ 🕒 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗧𝗶𝗺𝗲
-├───────────────
-│ ${time}
-└───────────────⭓
- `,
- attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
- }, event.threadID, () => fs.unlinkSync(__dicache/owner.jpg"));
-
- return request("https://i.imgur.com/RctPkbI.jpeg")
- .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
- .on('close', () => callback());
-}; + "/cache/owner.jpg"));
-
- return request("https://i.imgur.com/RctPkbI.jpeg")
- .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
- .on('close', () => callback());
-};(__dirname + "/cache/owner.jpg"));
-
- return request("https://i.imgur.com/RctPkbI.jpeg")
+ return request("https://i.imgur.com/idyXtoO.jpeg")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
